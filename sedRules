@@ -1,0 +1,4 @@
+/file:\/media\/debian/s//http:\/\/deb.debian.org\/debian/
+/'/s///g
+/^[^\(http\)]/d
+/^$/d
